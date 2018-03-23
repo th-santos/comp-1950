@@ -1,17 +1,7 @@
-// JavaScript Document
+// Show Mobile Navigation
+const body = document.body;
+const btn = document.querySelector('.hamburger');
 
-(function(d){
-	
-	// d = document
-	
-	const $body = d.querySelector('nav');
-	const $btn = d.querySelector('.btn-menu');
-	
-	$btn.addEventListener('click', function(){
-		
-		$body.classList.toggle('show');
-		
-	});
-	
-	
-})(document);
+btn.addEventListener('click', function(){
+    body.classList.toggle('show');
+});

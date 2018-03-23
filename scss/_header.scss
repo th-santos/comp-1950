@@ -1,0 +1,113 @@
+header {
+	color: orange;
+	display: flex;
+	justify-content: space-between;
+	height: 70px;
+    width: 100%;
+    @include zerospacing;
+
+    h1 {
+	margin: 0;
+	line-height: 70px;	
+	margin-left: 1.2rem;
+    font-family: 'Play';
+    }
+}
+
+nav {
+    
+    ul {
+        display: flex;
+        list-style-type: none;
+        @include zerospacing;
+    }
+
+    a {
+        display: block;
+        line-height: 70px;
+        padding: 0 1.2rem;
+        color: orange;
+        font-size: 1.2em;
+        text-decoration: none;
+        font-family: 'Advent Pro';
+        font-weight: bold;
+    }
+
+    a:hover,
+    a:focus,
+    a:active {
+        background-color: rgba(255,255,255,0.15);
+        outline: none;
+    }
+}
+
+.hamburger {
+	   display: none;
+}
+
+//media queries
+
+@media only screen and (min-width: 625px) and (max-width: 1095px){
+    
+@include menu;
+    
+    nav a {
+        padding: 0 0.5rem;
+    }
+    
+    .show nav {
+        height: 211px;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 625px) {
+    
+    @include menu;
+    
+    header {
+        
+        h1 {
+            font-size: 20px;
+            line-height: 50px;
+        }
+        
+        .hamburger {
+            height: 50px;
+        }
+        
+        nav a {
+            line-height: 30px;
+            font-size: 15px;
+        }
+    }
+    
+    .show nav {
+        height: 159px;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    
+    @include menu;
+    header {
+        
+        h1 {
+            font-size: 15px;
+            line-height: 35px;
+            margin-left: 0.5rem;
+        }
+        
+        .hamburger {
+            height: 35px;
+        }
+        
+        nav a {
+            line-height: 25px;
+            font-size: 12px;
+        }
+    }
+    
+    .show nav {
+        height: 134px;
+    }
+}

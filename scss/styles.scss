@@ -1,3 +1,123 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import 'variables';
+@import 'header';
+
+body {
+    @include zerospacing;
+    width: 100%;
+    background-color: darkslategrey;
+}
+
+.centerfold img {
+    width: 100%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: auto;
+    grid-gap: 5px;
+    text-align: center;
+    
+    h2 {
+        color: orange;
+        font-family: 'Play';
+        text-decoration: underline;
+    }
+    
+    a {
+        color: orange;
+        font-weight: bold;
+    }
+
+    .section-01 {
+        grid-column: 1 / 2;
+        @include sectionpadding;
+        color: white;
+        margin-left: 50px;
+    }
+
+    .section-02 {
+        grid-column: 2 / 3;
+        @include sectionpadding;
+        color: white;
+    }
+
+    .section-03 {
+        grid-column: 3 / 4;
+        @include sectionpadding;
+        color: white;
+        margin-right: 50px;
+    }
+    
+}
+
+@import 'footer';
+
+@media only screen and (min-width: 800px) and (max-width: 1095px){
+    main {
+        .section-01 {
+            margin-left: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .section-02 {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .section-03 {
+            margin-right: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
+
+@media only screen and (min-width: 625px) and (max-width: 800px) {
+    main {
+        grid-template-columns: .25fr 1fr .25fr;
+        grid-row: auto;
+        grid-gap: 5px;
+        @include onecolumn;
+    }
+}
+
+@media only screen and (min-width: 415px) and (max-width: 625px) {
+    main {
+        grid-template-columns: .1fr 1fr .1fr;
+        grid-row: auto;
+        grid-gap: 5px;
+        
+        h2 {
+            font-size: 18px;
+        }
+    
+        p {
+            font-size: 15px;
+        }
+        
+        @include onecolumn;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    main {
+        grid-template-columns: .1fr 1fr .1fr;
+        grid-row: auto;
+        grid-gap: 0px;
+        
+        h2 {
+            font-size: 15px;
+        }
+    
+        p {
+            font-size: 12px;
+        }
+    
+        @include onecolumn;
+    }
+}
