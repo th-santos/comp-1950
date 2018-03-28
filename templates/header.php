@@ -28,7 +28,9 @@
         </button>
         <?php include 'nav.php'; ?>
     </header>
-    <div class="centerfold">
-        <img src="images/cover.jpg" alt="studying web design">
-    </div>
+    <?php if(basename($_SERVER['PHP_SELF']) == 'index.php'): ?>
+        <div class="centerfold">
+            <img src="images/cover.jpg" alt="studying web design">
+        </div>
+    <?php endif ?>
     <main>
