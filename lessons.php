@@ -7,9 +7,9 @@
 
 	        <nav class="lesson-days-nav">
 	            <ul>
-	                <li><a href="./lessons/day-01.php">Day 01</a></li>
-	                <li><a href="#0">Day 02</a></li>
-	                <li><a href="#0">Day 03</a></li>
+	                <li><a href="./day-01.php">Day 01</a></li>
+	                <li><a href="./day-02.php">Day 02</a></li>
+	                <li><a href="./day-03.php">Day 03</a></li>
 	                <li><a href="#0">Day 04</a></li>
 	                <li><a href="#0">Day 05</a></li>
 	                <li><a href="#0">Day 06</a></li>
