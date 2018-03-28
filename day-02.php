@@ -1,6 +1,6 @@
 <?php 
     $pgName = 'Lessons - Day 02';
-    include '../templates/header.php';
+    include './templates/header.php';
 ?>
         <div>
 	        <h1>Day 02</h1>
@@ -40,4 +40,4 @@
 	        </article>
 
 	    </section>
-<?php include '../templates/footer.php'; ?>
+<?php include './templates/footer.php'; ?>
