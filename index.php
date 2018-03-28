@@ -4,11 +4,11 @@
 ?>
         <div class="section-01">
             <h2>About The Course</h2>
-            <p>COMP 1950 is a continuation of COMP 1850 and builds on the fundamentals of HTML development. It is offered on various different days and times at the Burnaby BCIT campus. You can find out more about the course pre-requisites, start dates, outline, and evaluation rubric by clicking <a href="#">here!</a>
+            <p>COMP 1950 is a continuation of COMP 1850 and builds on the fundamentals of HTML development. It is offered on various different days and times at the Burnaby BCIT campus. You can find out more about the course pre-requisites, start dates, outline, and evaluation rubric by clicking <a href="outline.php">here!</a>
         </div>
         <div class="section-02">
             <h2>Schedule</h2>
-            <p>BCIT offers a flexible schedule for students taking this course through part time studies. It is usually offered with the choice between 2/3 days of the week to attend in the evening. Start dates vary by year and demand. To find exact start dates and schedule just click <a href="#">here!</a></p>
+            <p>BCIT offers a flexible schedule for students taking this course through part time studies. It is usually offered with the choice between 2/3 days of the week to attend in the evening. Start dates vary by year and demand. To find exact start dates and schedule just click <a href="schedule.php">here!</a></p>
         </div>
         <div class="section-03">
             <h2>Advantages</h2>
