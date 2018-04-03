@@ -4,6 +4,12 @@
     } else {
         $pgName = ' - ' . $pgName;
     }
+
+    if(!isset($mainClass)){
+        $mainClass = '';
+    } else {
+        $mainClass = ' class="' . $mainClass . '"';
+    }
 ?>
 
 <!DOCTYPE html>
@@ -33,4 +39,4 @@
             <img src="images/cover.jpg" alt="studying web design">
         </div>
     <?php endif ?>
-    <main>
+    <main<?php echo $mainClass; ?>>
