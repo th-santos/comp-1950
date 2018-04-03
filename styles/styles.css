@@ -311,16 +311,16 @@ main {
     color: white;
     margin-right: 50px; }
 
-main2 {
+.main-outline {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row: auto;
   grid-gap: 5px;
   text-align: center; }
-  main2 h3 {
+  .main-outline h3 {
     color: orange;
     font-family: 'Play'; }
-  main2 .section-04 {
+  .main-outline .section-04 {
     grid-column: 1 / 4;
     grid-row: 1 / 2;
     padding-left: 35px;
@@ -332,7 +332,7 @@ main2 {
     border-top: 2px solid darkturquoise;
     color: orange;
     text-decoration: underline; }
-  main2 .section-05 {
+  .main-outline .section-05 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
     padding-left: 35px;
@@ -344,7 +344,7 @@ main2 {
     background-color: rgba(0, 206, 209, 0.35);
     margin-left: 30px;
     margin-right: 30px; }
-  main2 .section-06 {
+  .main-outline .section-06 {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     padding-left: 35px;
@@ -356,7 +356,7 @@ main2 {
     background-color: rgba(0, 206, 209, 0.35);
     margin-left: 30px;
     margin-right: 30px; }
-  main2 .section-07 {
+  .main-outline .section-07 {
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     padding-left: 35px;
@@ -368,7 +368,7 @@ main2 {
     background-color: rgba(0, 206, 209, 0.35);
     margin-left: 30px;
     margin-right: 30px; }
-  main2 .section-08 {
+  .main-outline .section-08 {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
     padding-left: 35px;
@@ -381,7 +381,7 @@ main2 {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px; }
-  main2 .section-09 {
+  .main-outline .section-09 {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
     padding-left: 35px;
@@ -394,9 +394,9 @@ main2 {
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 20px; }
-    main2 .section-09 li {
+    .main-outline .section-09 li {
       padding: 5px; }
-  main2 .section-10 {
+  .main-outline .section-10 {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     padding-left: 35px;
