@@ -253,7 +253,7 @@ main3 {
         }
     }
     
-    main2 {
+    .main-outline {
         
         .section-04 {
             padding: 35px;
@@ -308,7 +308,7 @@ main3 {
         @include onecolumn;
     }
     
-    main2 {
+    .main-outline {
         grid-template-columns: .50fr .50fr;
         grid-row: auto;
         grid-gap: 5px;
@@ -418,7 +418,7 @@ main3 {
         @include onecolumn;
     }
     
-    main2 {
+    .main-outline {
         @include onecolumn;
     }
     
@@ -463,7 +463,7 @@ main3 {
         }
     }
     
-    main2 {
+    .main-outline {
         @include onecolumn;
             
         h3 {
