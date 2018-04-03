@@ -9,6 +9,17 @@ body {
     width: 100%;
     background-color: darkslategrey;
     font-family: Arial, Helvetica, sans-serif;
+    
+    .section-11{
+    
+        color: orange;
+            font-family: 'Play';
+        text-align: center;
+        text-decoration: underline;
+        font-size: 30px;
+        padding: 35px;
+        border-top: 2px solid darkturquoise;
+    }
 }
 
 .centerfold img {
@@ -52,7 +63,172 @@ main {
         color: white;
         margin-right: 50px;
     }
+}
+
+main2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: auto;
+    grid-gap: 5px;
+    text-align: center;
     
+    h3 {
+            color: orange;
+            font-family: 'Play';
+        }
+    
+    .section-04 {
+        grid-column: 1 / 4;
+        grid-row: 1 / 2;
+        @include sectionpadding;
+        font-family: 'Play';
+        font-size: 30px;
+        padding: 45px;
+        border-top: 2px solid darkturquoise;
+        color: orange;
+        text-decoration: underline;
+    }
+    
+    .section-05 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        @include sectionpadding;
+        @include borders;
+    }
+    
+    .section-06 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        @include sectionpadding;
+        @include borders;
+    }
+    
+    .section-07 {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        @include sectionpadding;
+        @include borders;
+        
+    }
+    
+    .section-08 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        @include sectionpadding;
+        @include borders;
+        margin-top: 20px;
+    }
+    
+    .section-09 {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+        @include sectionpadding;
+        @include borders;
+        margin-top: 20px;
+        
+        li {
+            padding: 5px;
+        }
+    }
+    
+    .section-10 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        @include sectionpadding;
+        @include borders;
+        margin-top: 20px;
+    }
+}
+
+main3 {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    
+    h3 {
+        color: orange;
+        text-align: center;
+    }
+    
+    .section-12 {
+        @include borders2;
+        margin-left: 10px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .section-13 {
+        @include borders2;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .section-14 {
+        @include borders2;
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    
+    .section-15 {
+        @include borders2;
+        margin-right: 10px;
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    
+    .section-16 {
+        @include borders2;
+        margin-left: 10px;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    
+    .section-17 {
+        @include borders2;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    
+    .section-18 {
+        @include borders2;
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    
+    .section-19 {
+        @include borders2;
+        margin-right: 10px;
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+    }
+    
+    .section-20 {
+        @include borders2;
+        margin-left: 10px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    
+    .section-21 {
+        @include borders2;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    
+    .section-22 {
+        @include borders2;
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    
+    .section-23 {
+        @include borders2;
+        margin-right: 10px;
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
 }
 
 @import 'footer';
@@ -76,39 +252,206 @@ main {
             padding-right: 15px;
         }
     }
+    
+    main2 {
+        
+        .section-04 {
+            padding: 35px;
+        }
+        
+        .section-05 {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .section-06 {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .section-07 {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .section-08 {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .section-09 {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .section-10 {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
 }
 
 @media only screen and (min-width: 625px) and (max-width: 800px) {
     main {
-        grid-template-columns: .25fr 1fr .25fr;
-        grid-row: auto;
-        grid-gap: 5px;
         @include onecolumn;
     }
+    
+    main2 {
+        grid-template-columns: .50fr .50fr;
+        grid-row: auto;
+        grid-gap: 5px;
+        @include twocolumn;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+}
+
+@media only screen and (min-width: 625px) and (max-width: 1095px) {
+    main3 {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 15px;
+    
+    .section-12 {
+        @include borders2;
+        margin-left: 10px;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .section-13 {
+        @include borders2;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .section-14 {
+        @include borders2;
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        margin-right: 10px;
+    }
+    
+    .section-15 {
+        @include borders2;
+        margin-left: 10px;
+        margin-right: 0px;
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+    
+    .section-16 {
+        @include borders2;
+        margin-left: 0px;
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+    
+    .section-17 {
+        @include borders2;
+        margin-right: 10px;
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+    }
+    
+    .section-18 {
+        @include borders2;
+        margin-left: 10px;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+    
+    .section-19 {
+        @include borders2;
+        margin-right: 0px;
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    
+    .section-20 {
+        @include borders2;
+        margin-right: 10px;
+        margin-left: 0px;
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    
+    .section-21 {
+        @include borders2;
+        margin-left: 10px;
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+    }
+    
+    .section-22 {
+        @include borders2;
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+    
+    .section-23 {
+        @include borders2;
+        margin-right: 10px;
+        grid-column: 3 / 4;
+        grid-row: 4 / 5;
+    }
+}
 }
 
 @media only screen and (min-width: 415px) and (max-width: 625px) {
     main {
-        grid-template-columns: .1fr 1fr .1fr;
-        grid-row: auto;
-        grid-gap: 5px;
-        
-        h2 {
-            font-size: 18px;
-        }
-    
-        p {
-            font-size: 15px;
-        }
-        
         @include onecolumn;
+    }
+    
+    main2 {
+        @include onecolumn;
+    }
+    
+    main3 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row: auto;
+        grid-gap: 10px;
+        @include twocolumn;
+        margin-left: 5px;
+        margin-right: 5px;
+        
+        h3 {
+            font-size: 16px;
+        }
+        
+        ul {
+            font-size: 14px;
+        }
+    }
+    
+    body {
+        
+        .section-11 {
+            font-size: 20px;
+            padding: 25px;
+            
+        }
     }
 }
 
 @media only screen and (max-width: 415px) {
     main {
-        grid-template-columns: .1fr 1fr .1fr;
-        grid-row: auto;
+        @include onecolumn;
         grid-gap: 0px;
         
         h2 {
@@ -118,7 +461,49 @@ main {
         p {
             font-size: 12px;
         }
+    }
     
+    main2 {
         @include onecolumn;
+            
+        h3 {
+            font-size: 15px;
+        }
+        
+        p, li {
+            font-size: 12px;
+        }
+        
+        .section-04 {
+                font-size: 18px;
+            padding: 15px;
+        }
+    }
+    
+    main3 {
+
+        @include onecolumn;
+        grid-gap: 10px;
+        
+        h3 {
+            font-size: 15px;
+        }
+        
+        p, li {
+            font-size: 12px;
+        }
+        
+        .section-23 {
+            margin-bottom: 20px;
+        }
+    }
+    
+    body {
+        
+        .section-11 {
+            font-size: 18px;
+            padding: 15px;
+            
+        }
     }
 }
