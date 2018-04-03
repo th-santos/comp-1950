@@ -1782,7 +1782,8 @@ footer {
       grid-row: 12 / 13; }
     .main-outline h3 {
       font-size: 15px; }
-    .main-outline p, .main-outline li {
+    .main-outline p,
+    .main-outline li {
       font-size: 12px; }
     .main-outline .section-04 {
       font-size: 18px;
@@ -1954,7 +1955,8 @@ footer {
       grid-row: 12 / 13; }
     .main-schedule h3 {
       font-size: 15px; }
-    .main-schedule p, .main-schedule li {
+    .main-schedule p,
+    .main-schedule li {
       font-size: 12px; }
     .main-schedule .section-23 {
       margin-bottom: 20px; }

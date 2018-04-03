@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 /* CSS Document */
 
 @import 'variables';
@@ -9,11 +10,11 @@ body {
     width: 100%;
     background-color: darkslategrey;
     font-family: Arial, Helvetica, sans-serif;
-    
-    .section-11{
-    
+
+    .section-11 {
+
         color: orange;
-            font-family: 'Play';
+        font-family: 'Play';
         text-align: center;
         text-decoration: underline;
         font-size: 30px;
@@ -32,13 +33,13 @@ main {
     grid-row: auto;
     grid-gap: 5px;
     text-align: center;
-    
+
     h2 {
         color: orange;
         font-family: 'Play';
         text-decoration: underline;
     }
-    
+
     a {
         color: orange;
         font-weight: bold;
@@ -71,12 +72,12 @@ main {
     grid-row: auto;
     grid-gap: 5px;
     text-align: center;
-    
+
     h3 {
-            color: orange;
-            font-family: 'Play';
-        }
-    
+        color: orange;
+        font-family: 'Play';
+    }
+
     .section-04 {
         grid-column: 1 / 4;
         grid-row: 1 / 2;
@@ -88,29 +89,28 @@ main {
         color: orange;
         text-decoration: underline;
     }
-    
+
     .section-05 {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         @include sectionpadding;
         @include borders;
     }
-    
+
     .section-06 {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
         @include sectionpadding;
         @include borders;
     }
-    
+
     .section-07 {
         grid-column: 3 / 4;
         grid-row: 2 / 3;
         @include sectionpadding;
         @include borders;
-        
     }
-    
+
     .section-08 {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
@@ -118,19 +118,19 @@ main {
         @include borders;
         margin-top: 20px;
     }
-    
+
     .section-09 {
         grid-column: 3 / 4;
         grid-row: 3 / 4;
         @include sectionpadding;
         @include borders;
         margin-top: 20px;
-        
+
         li {
             padding: 5px;
         }
     }
-    
+
     .section-10 {
         grid-column: 2 / 3;
         grid-row: 3 / 4;
@@ -141,88 +141,88 @@ main {
 }
 
 .main-schedule {
-    
+
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
-    
+
     h3 {
         color: orange;
         text-align: center;
     }
-    
+
     .section-12 {
         @include borders2;
         margin-left: 10px;
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
-    
+
     .section-13 {
         @include borders2;
         grid-column: 2 / 3;
         grid-row: 1 / 2;
     }
-    
+
     .section-14 {
         @include borders2;
         grid-column: 3 / 4;
         grid-row: 1 / 2;
     }
-    
+
     .section-15 {
         @include borders2;
         margin-right: 10px;
         grid-column: 4 / 5;
         grid-row: 1 / 2;
     }
-    
+
     .section-16 {
         @include borders2;
         margin-left: 10px;
         grid-column: 1 / 2;
         grid-row: 2 / 3;
     }
-    
+
     .section-17 {
         @include borders2;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
     }
-    
+
     .section-18 {
         @include borders2;
         grid-column: 3 / 4;
         grid-row: 2 / 3;
     }
-    
+
     .section-19 {
         @include borders2;
         margin-right: 10px;
         grid-column: 4 / 5;
         grid-row: 2 / 3;
     }
-    
+
     .section-20 {
         @include borders2;
         margin-left: 10px;
         grid-column: 1 / 2;
         grid-row: 3 / 4;
     }
-    
+
     .section-21 {
         @include borders2;
         grid-column: 2 / 3;
         grid-row: 3 / 4;
     }
-    
+
     .section-22 {
         @include borders2;
         grid-column: 3 / 4;
         grid-row: 3 / 4;
     }
-    
+
     .section-23 {
         @include borders2;
         margin-right: 10px;
@@ -233,67 +233,67 @@ main {
 
 @import 'footer';
 
-@media only screen and (min-width: 800px) and (max-width: 1095px){
+@media only screen and (min-width: 800px) and (max-width: 1095px) {
     main {
         .section-01 {
             margin-left: 10px;
             padding-left: 15px;
             padding-right: 15px;
         }
-        
+
         .section-02 {
             padding-left: 15px;
             padding-right: 15px;
         }
-        
+
         .section-03 {
             margin-right: 10px;
             padding-left: 15px;
             padding-right: 15px;
         }
     }
-    
+
     .main-outline {
-        
+
         .section-04 {
             padding: 35px;
         }
-        
+
         .section-05 {
             padding-left: 15px;
             padding-right: 15px;
             margin-left: 10px;
             margin-right: 10px;
         }
-        
+
         .section-06 {
             padding-left: 15px;
             padding-right: 15px;
             margin-left: 10px;
             margin-right: 10px;
         }
-        
+
         .section-07 {
             padding-left: 15px;
             padding-right: 15px;
             margin-left: 10px;
             margin-right: 10px;
         }
-        
+
         .section-08 {
             padding-left: 15px;
             padding-right: 15px;
             margin-left: 10px;
             margin-right: 10px;
         }
-        
+
         .section-09 {
             padding-left: 15px;
             padding-right: 15px;
             margin-left: 10px;
             margin-right: 10px;
         }
-        
+
         .section-10 {
             padding-left: 15px;
             padding-right: 15px;
@@ -307,7 +307,7 @@ main {
     main {
         @include onecolumn;
     }
-    
+
     .main-outline {
         grid-template-columns: .50fr .50fr;
         grid-row: auto;
@@ -316,112 +316,111 @@ main {
         margin-left: 5px;
         margin-right: 5px;
     }
-    
 }
 
 @media only screen and (min-width: 625px) and (max-width: 1095px) {
     .main-schedule {
-    
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 15px;
-    
-    .section-12 {
-        @include borders2;
-        margin-left: 10px;
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 15px;
+
+        .section-12 {
+            @include borders2;
+            margin-left: 10px;
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
+
+        .section-13 {
+            @include borders2;
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+        }
+
+        .section-14 {
+            @include borders2;
+            grid-column: 3 / 4;
+            grid-row: 1 / 2;
+            margin-right: 10px;
+        }
+
+        .section-15 {
+            @include borders2;
+            margin-left: 10px;
+            margin-right: 0px;
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+
+        .section-16 {
+            @include borders2;
+            margin-left: 0px;
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
+        }
+
+        .section-17 {
+            @include borders2;
+            margin-right: 10px;
+            grid-column: 3 / 4;
+            grid-row: 2 / 3;
+        }
+
+        .section-18 {
+            @include borders2;
+            margin-left: 10px;
+            grid-column: 1 / 2;
+            grid-row: 3 / 4;
+        }
+
+        .section-19 {
+            @include borders2;
+            margin-right: 0px;
+            grid-column: 2 / 3;
+            grid-row: 3 / 4;
+        }
+
+        .section-20 {
+            @include borders2;
+            margin-right: 10px;
+            margin-left: 0px;
+            grid-column: 3 / 4;
+            grid-row: 3 / 4;
+        }
+
+        .section-21 {
+            @include borders2;
+            margin-left: 10px;
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+        }
+
+        .section-22 {
+            @include borders2;
+            grid-column: 2 / 3;
+            grid-row: 4 / 5;
+        }
+
+        .section-23 {
+            @include borders2;
+            margin-right: 10px;
+            grid-column: 3 / 4;
+            grid-row: 4 / 5;
+        }
     }
-    
-    .section-13 {
-        @include borders2;
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-    }
-    
-    .section-14 {
-        @include borders2;
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-        margin-right: 10px;
-    }
-    
-    .section-15 {
-        @include borders2;
-        margin-left: 10px;
-        margin-right: 0px;
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
-    }
-    
-    .section-16 {
-        @include borders2;
-        margin-left: 0px;
-        grid-column: 2 / 3;
-        grid-row: 2 / 3;
-    }
-    
-    .section-17 {
-        @include borders2;
-        margin-right: 10px;
-        grid-column: 3 / 4;
-        grid-row: 2 / 3;
-    }
-    
-    .section-18 {
-        @include borders2;
-        margin-left: 10px;
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-    }
-    
-    .section-19 {
-        @include borders2;
-        margin-right: 0px;
-        grid-column: 2 / 3;
-        grid-row: 3 / 4;
-    }
-    
-    .section-20 {
-        @include borders2;
-        margin-right: 10px;
-        margin-left: 0px;
-        grid-column: 3 / 4;
-        grid-row: 3 / 4;
-    }
-    
-    .section-21 {
-        @include borders2;
-        margin-left: 10px;
-        grid-column: 1 / 2;
-        grid-row: 4 / 5;
-    }
-    
-    .section-22 {
-        @include borders2;
-        grid-column: 2 / 3;
-        grid-row: 4 / 5;
-    }
-    
-    .section-23 {
-        @include borders2;
-        margin-right: 10px;
-        grid-column: 3 / 4;
-        grid-row: 4 / 5;
-    }
-}
 }
 
 @media only screen and (min-width: 415px) and (max-width: 625px) {
     main {
         @include onecolumn;
     }
-    
+
     .main-outline {
         @include onecolumn;
     }
-    
+
     .main-schedule {
         grid-template-columns: repeat(2, 1fr);
         grid-row: auto;
@@ -429,22 +428,21 @@ main {
         @include twocolumn;
         margin-left: 5px;
         margin-right: 5px;
-        
+
         h3 {
             font-size: 16px;
         }
-        
+
         ul {
             font-size: 14px;
         }
     }
-    
+
     body {
-        
+
         .section-11 {
             font-size: 20px;
             padding: 25px;
-            
         }
     }
 }
@@ -453,57 +451,58 @@ main {
     main {
         @include onecolumn;
         grid-gap: 0px;
-        
+
         h2 {
             font-size: 15px;
         }
-    
+
         p {
             font-size: 12px;
         }
     }
-    
+
     .main-outline {
         @include onecolumn;
-            
+
         h3 {
             font-size: 15px;
         }
-        
-        p, li {
+
+        p,
+        li {
             font-size: 12px;
         }
-        
+
         .section-04 {
-                font-size: 18px;
+            font-size: 18px;
             padding: 15px;
         }
     }
-    
+
     .main-schedule {
 
         @include onecolumn;
         grid-gap: 10px;
-        
+
         h3 {
             font-size: 15px;
         }
-        
-        p, li {
+
+        p,
+        li {
             font-size: 12px;
         }
-        
+
         .section-23 {
             margin-bottom: 20px;
         }
     }
-    
+
     body {
-        
+
         .section-11 {
             font-size: 18px;
             padding: 15px;
-            
         }
     }
 }
