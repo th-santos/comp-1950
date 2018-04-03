@@ -140,7 +140,7 @@ main {
     }
 }
 
-main3 {
+.main-schedule {
     
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -320,7 +320,7 @@ main3 {
 }
 
 @media only screen and (min-width: 625px) and (max-width: 1095px) {
-    main3 {
+    .main-schedule {
     
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -422,7 +422,7 @@ main3 {
         @include onecolumn;
     }
     
-    main3 {
+    .main-schedule {
         grid-template-columns: repeat(2, 1fr);
         grid-row: auto;
         grid-gap: 10px;
@@ -480,7 +480,7 @@ main3 {
         }
     }
     
-    main3 {
+    .main-schedule {
 
         @include onecolumn;
         grid-gap: 10px;
