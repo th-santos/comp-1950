@@ -55,5 +55,4 @@
 				<a href="#">Day 12</a>
         	</div>
 
-        </main>
 <?php include './templates/footer.php'; ?>
