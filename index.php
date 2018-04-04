@@ -2,6 +2,7 @@
     $pgName = 'Homepage';
     include './templates/header.php';
 ?>
+    <main>
         <div class="section-01">
             <h2>About The Course</h2>
             <p>COMP 1950 is a continuation of COMP 1850 and builds on the fundamentals of HTML development. It is offered on various different days and times at the Burnaby BCIT campus. You can find out more about the course pre-requisites, start dates, outline, and evaluation rubric by clicking <a href="outline.php">here!</a>
