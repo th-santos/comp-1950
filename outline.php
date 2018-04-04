@@ -48,12 +48,12 @@
 			 
             <div class="section-10">
                 <h3>Evaluation Criteria</h3>
-                <p>Assignments 1 – 7	20% (2.86% per assignment)</p>
-                <p>Project 1		20%</p>
-                <p>Mid-Term Exam		10%</p>
-                <p>Final Exam		20%</p>
-                <p>Final Project		30%</p>
-                <p>Total			100%</p>
+                <p>Assignments 1 – 7<br>20% (2.86% per assignment)</p>
+                <p>Project 1<br>20%</p>
+                <p>Mid-Term Exam<br>10%</p>
+                <p>Final Exam<br>20%</p>
+                <p>Final Project<br>30%</p>
+                <p>Total<br>100%</p>
             </div>
 
 <?php include './templates/footer.php'; ?>
