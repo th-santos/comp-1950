@@ -12,7 +12,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
     .section-11 {
-
         color: orange;
         font-family: 'Play';
         text-align: center;
@@ -140,7 +139,7 @@ main {
     }
 }
 
-.main-schedule {
+.main-schedule, .main-lessons {
 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -319,7 +318,7 @@ main {
 }
 
 @media only screen and (min-width: 625px) and (max-width: 1095px) {
-    .main-schedule {
+    .main-schedule, .main-lessons {
 
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -421,7 +420,7 @@ main {
         @include onecolumn;
     }
 
-    .main-schedule {
+    .main-schedule, .main-lessons {
         grid-template-columns: repeat(2, 1fr);
         grid-row: auto;
         grid-gap: 10px;
@@ -479,7 +478,7 @@ main {
         }
     }
 
-    .main-schedule {
+    .main-schedule, .main-lessons {
 
         @include onecolumn;
         grid-gap: 10px;
