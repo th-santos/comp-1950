@@ -2,26 +2,58 @@
     $pgName = 'Lessons';
     include './templates/header.php';
 ?>
-        <div>
-	        <h1>Lessons</h1>
 
-	        <nav class="lesson-days-nav">
-	            <ul>
-	                <li><a href="./day-01.php">Day 01</a></li>
-	                <li><a href="./day-02.php">Day 02</a></li>
-	                <li><a href="./day-03.php">Day 03</a></li>
-	                <li><a href="#0">Day 04</a></li>
-	                <li><a href="#0">Day 05</a></li>
-	                <li><a href="#0">Day 06</a></li>
-	            </ul>
-	            <ul>
-	                <li><a href="#0">Day 07</a></li>
-	                <li><a href="#0">Day 08</a></li>
-	                <li><a href="#0">Day 09</a></li>
-	                <li><a href="#0">Day 10</a></li>
-	                <li><a href="#0">Day 11</a></li>
-	                <li><a href="#0">Day 12</a></li>
-	            </ul>
-	        </nav>
-        </div>
+		<div class="section-11">Lessons</div>
+
+        <main class="main-lessons">
+
+			<div class="section-12">
+				<a href="./day-01.php">Day 01</a>
+        	</div>
+
+			<div class="section-13">
+				<a href="./day-02.php">Day 02</a>
+        	</div>
+
+       		<div class="section-14">
+				<a href="./day-03.php">Day 03</a>
+        	</div>
+
+       		<div class="section-15">
+				<a href="#">Day 04</a>
+        	</div>
+
+       		<div class="section-16">
+				<a href="#">Day 05</a>
+        	</div>
+
+       		<div class="section-17">
+				<a href="#">Day 06</a>
+        	</div>
+
+       		<div class="section-18">
+				<a href="#">Day 07</a>
+        	</div>
+
+       		<div class="section-19">
+				<a href="#">Day 08</a>
+        	</div>
+
+       		<div class="section-20">
+				<a href="#">Day 09</a>
+        	</div>
+
+       		<div class="section-21">
+				<a href="#">Day 10</a>
+        	</div>
+
+       		<div class="section-22">
+				<a href="#">Day 11</a>
+        	</div>
+
+       		<div class="section-23">
+				<a href="#">Day 12</a>
+        	</div>
+
+        </main>
 <?php include './templates/footer.php'; ?>
