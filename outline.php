@@ -1,8 +1,8 @@
 <?php 
     $pgName = 'Outline';
-    $mainClass = 'main-outline';
     include './templates/header.php';
 ?>
+        <main class="main-outline">
             <div class="section-04">Course Outline</div>
 
 			<div class="section-05">
