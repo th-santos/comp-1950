@@ -26,6 +26,15 @@ body {
     width: 100%;
 }
 
+.col-1 {
+    display: grid;
+    grid-template-columns: auto !important;
+    grid-row: auto;
+    grid-gap: 35px;
+    text-align: center;
+    color: white;
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
